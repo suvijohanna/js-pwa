@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url('/~suvimyn/2025/jakso1/js-pwa/Hello-PWA/images/talvinen.jpg');
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+}
+
+html,
+.fullscreen {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  width: 70%;
+}
+
+@font-face {
+  font-family: 'Shizuru';
+  src: url('/~suvimyn/2025/jakso1/js-pwa/Hello-PWA/Shizuru-Regular.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.title {
+  font-family: 'Shizuru', system-ui;
+  font-size: 5vw;
+}
+
+p {
+  margin-bottom: 1em;
+}
